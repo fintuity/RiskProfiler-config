@@ -1,0 +1,203 @@
+---
+- name: Profile 1
+  groups:
+    - num: 1
+      name: Knowledge
+      type: ra
+    - num: 2
+      name: Comfort with risk
+      type: ra
+    - num: 3
+      name: Investment decisions
+      type: ra
+    - num: 4
+      name: Regret
+      type: ra
+    - num: 5
+      name: Capacity for Loss
+      type: cfl
+  questions:
+    - text: How would you rate your understanding of investment matters?
+      num: 1
+      groupNum: 1
+      pairNum: 6
+      answers:
+        - {num: 1, text: "Very good",     weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 2, text: "Good",          weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 3, text: "Moderate",      weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 4, text: "Not Very Good", weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 5, text: "Very limited",  weights: [0, 1, 0.5, 0, 0, 0, 0]}
+    - text: Which of the following statements is closest to the ammount of financial risk that you are willing to take when you save or make investments?
+      num: 2
+      groupNum: 3
+      pairNum: 10
+      answers:
+        - {num: 1, text: "Not willing to take any risk",                                             weights: [100, 0, 0, 0, 0, 0, 0]}
+        - {num: 2, text: "Take below average financial risk expecting to earn below average return", weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Take average financial risk expecting average returns",                    weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 4, text: "Take above average risk expecting to earn above average returns",          weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 5, text: "Take significant risk expecting to earn significant returns",              weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "For me, part of investing is experiencing the ups and downs."
+      num: 3
+      groupNum: 2
+      pairNum: 9
+      answers:
+        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [0.5, 1, 0, 0, 0, 0, 0]}
+    - text: "In past, how often did you regret your financial decisions?"
+      num: 4
+      groupNum: 4
+      pairNum: 8
+      answers:
+        - {num: 1, text: "Always",  weights: [0.5, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "Often",   weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Seldom",  weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 4, text: "Never",   weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "To get a good return on my money, I am prepared to risk a portion of my wealth"
+      num: 5
+      groupNum: 2
+      pairNum: 7
+      answers:
+        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Disagree",          weights: [0.5, 1, 0, 0, 0, 0, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [1, 0.5, 0, 0, 0, 0, 0]}
+    - text: "Your understanding of investment risk is?"
+      num: 6
+      groupNum: 1
+      answers:
+        - {num: 1, text: "Very limited",  weights:[0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "Not Very Good", weights:[0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Moderate",      weights:[0, 0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 4, text: "Quite Good",    weights:[0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 5, text: "Very Good",     weights:[0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "I am willing to take substantial financial risk expecting to earn substantial returns."
+      num: 7
+      groupNum: 2
+      answers:
+        - {num: 1, text: "Strongly agree",    weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "Agree",             weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "I would be anxious if I saw my investments had gone down in value."
+      num: 8
+      groupNum: 4
+      answers:
+        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [0.5, 1, 0.5, 0, 0, 0, 0]}
+    - text: "Which of the following words do you most associate with investing money?"
+      num: 9
+      groupNum: 2
+      answers:
+        - {num: 1, text: "Loss",        weights: [0.5, 1, 0, 0, 0, 0, 0]}
+        - {num: 2, text: "Uncertainty", weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Opportunity", weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Excitement",  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "I prefer the certain return of a deposit account to risky Investment."
+      num: 10
+      groupNum: 3
+      answers:
+        - {num: 1, text: "Strongly agree",    weights: [100, 0, 0, 0, 0, 0, 0]}
+        - {num: 2, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0, 0, 0]}
+    - text: "The amount you are proposing to invest, ignoring any value in your own house, represents:"
+      num: 11
+      groupNum: 5
+      pairNum: 16
+      answers:
+        - {num: 1, text: "All of my savings (other than emergency funds)",  weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "About half of my savings",                        weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "About 25% of my savings",                         weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "A relatively small proportion of my savings",     weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "Will you need to withdraw significant amount of money you are investing in this Plan within the next two years?"
+      num: 12
+      groupNum: 5
+      pairNum: 14
+      answers:
+        - {num: 1, text: "Definitely",      weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "Probably",        weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Don't think so",  weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Definitely not",  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "What level of loss on these investments could you sustain before it became a real danger to your current standard of living?"
+      num: 13
+      groupNum: 5
+      pairNum: 16
+      answers:
+        - {num: 1, text: "More than 10%",                                       weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "More than 20%",                                       weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "More than 30%",                                       weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "It should not affect my current standard of living",  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "How important to your household budgets would any income from this investment be?"
+      num: 14
+      groupNum: 5
+      answers:
+        - {num: 1, text: "An indispensable part of my disposable income",         weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "Makes a useful contribution to my disposable income",   weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Nice to have but not important",                        weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Not important at all",                                  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "My current and future income sources are"
+      num: 15
+      groupNum: 5
+      answers:
+        - {num: 1, text: "Very unstable", weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "Unstable",      weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "Stable",        weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Very stable",   weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+    - text: "Your portfolio loses 25% of its value"
+      num: 16
+      groupNum: 5
+      pairNum: 11
+      answers:
+        - {num: 1, text: "It will have a material impact on your financial security",   weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "You will have to adjust your short term spending plans",      weights: [0, 0, 1, 0.5, 0, 0, 0]}
+        - {num: 3, text: "You have time for the portfolio to recovery in value",        weights: [0, 0, 0, 0.5, 1, 0, 0]}
+        - {num: 4, text: "You are not going to face any financial difficulties",        weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+  riskLevels:
+    - level: 1
+      name: "No Risk"
+      description: "Based on your answers, you don not prefer to take any investment risk and would rather  hold you money on cash deposit. Yoy definetely don't want to invest in any investment products that can fall in value.You recognise that the returns on your investment expected to be very small and that the real returns achieved may be significantly reduced by inflation."
+    - level: 2
+      name: "Low"
+      description: >
+                      Based on your answers, you are likely to be defensive with your investments. You
+                      recognise that the returns on your investment expected to be quite moderate and that
+                      the real returns achieved may be significantly reduced by inflation. You are likely to show
+                      a very high amount of concern if the value of your investments significantly rises and falls
+                      regularly, even though they may still be on track towards your goals.
+    - level: 3
+      name: "Low-to-Medium"
+      description: >
+                      Based on your answers, you have a low appetite
+                      for investment risk relative to the
+                      average investor. Your ideal investment portfolio may be tilted more towards low risk
+                      investments, even where there is a risk that the real value of your money may be
+                      reduced by inflation. While you are prepared to take some risk to increase potential
+                      returns although you may be uncomfortable with large swings in the value of your
+                      investment, even though they may still be on track towards your goals.
+    - level: 4
+      name: "Medium"
+      description: >
+                      Based on your answers, you are balanced in your attitude towards risk and reward – you
+                      will neither seek risk nor seek to avoid it. People like you understand that they have to
+                      take some risk with their investments in order to be able to meet their long-term goal.You are
+                      likely to show a reasonable amount of concern if the value of your investments
+                      rises and falls regularly, even though they may still be on track towards your goals.
+    - level: 5
+      name: "Medium-to-High"
+      description: >
+                      Based on your answers, you have a moderate appetite for investment risk than the
+                      average customer. In general, people like you are willing to take investment risk and
+                      understand that this is crucial in terms of generating long-term return. While you may
+                      suffer from regret when your investment falls in value, you are usually able to accept that
+                      occasional poor outcomes are a necessary part of long-term investment.
+    - level: 6
+      name: "High"
+      description: >
+                      Based on your answers, you are happy to take investment risk and understand that
+                      investments with high expected return could suffer from significant losses. You are not
+                      overly concerned with large swings in the value of your investment. You may not
+                      experience any regret if investments do not work out and accept occasional poor
+                      investment outcomes without much difficulty.
