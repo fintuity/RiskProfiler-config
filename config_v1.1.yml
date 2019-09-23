@@ -17,7 +17,7 @@
       name: Capacity for Loss
       type: cfl
   questions:
-    - text: How would you rate your understanding of investment matters?
+    - text: How would you rate your understanding of investment  matters?
       num: 1
       groupNum: 1
       pairNum: 6
@@ -85,10 +85,10 @@
       num: 8
       groupNum: 4
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1]}
-        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 3, text: "Disagree",          weights: [0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 4, text: "Strongly Disagree", weights: [0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 1, text: "Strongly agree",    weights: [1, 0.5, 0, 0, 0, 0]}
+        - {num: 2, text: "Agree",             weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [0, 0, 0, 0.5, 1, 0.5]}
     - text: "Which of the following words do you most associate with investing money?"
       num: 9
       groupNum: 2
@@ -102,7 +102,7 @@
       groupNum: 3
       answers:
         - {num: 1, text: "Strongly agree",    weights: [100, 0, 0, 0, 0, 0]}
-        - {num: 2, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0, 0]}
+        - {num: 2, text: "Strongly Disagree", weights: [0, 1, 1, 1, 1, 1]}
     - text: "The amount you are proposing to invest, ignoring any value in your own house, represents:"
       num: 11
       groupNum: 5
