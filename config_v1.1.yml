@@ -17,7 +17,7 @@
       name: Capacity for Loss
       type: cfl
   questions:
-    - text: How would you rate your understanding of investment matters??
+    - text: How would you rate your understanding of investment matters?
       num: 1
       groupNum: 1
       pairNum: 6
