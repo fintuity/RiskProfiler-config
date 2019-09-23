@@ -32,7 +32,7 @@
       groupNum: 3
       pairNum: 10
       answers:
-        - {num: 1, text: "Not willing to take any risk",                                             weights: [1, 0, 0, 0, 0, 0]}
+        - {num: 1, text: "Not willing to take any risk",                                             weights: [100, 0, 0, 0, 0, 0]}
         - {num: 2, text: "Take below average financial risk expecting to earn below average return", weights: [0, 0.5, 1, 0.5, 0, 0]}
         - {num: 3, text: "Take average financial risk expecting average returns",                    weights: [0, 0, 0.5, 1, 0.5, 0]}
         - {num: 4, text: "Take above average risk expecting to earn above average returns",          weights: [0, 0, 0, 0.5, 1, 0.5]}
@@ -101,8 +101,8 @@
       num: 10
       groupNum: 3
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [1, 0, 0, 0, 0, 0]}
-        - {num: 2, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0, 0]}
+        - {num: 1, text: "Strongly agree",    weights: [100, 0, 0, 0, 0, 0]}
+        - {num: 2, text: "Strongly Disagree", weights: [0.9, 0.9, 0.9, 0.9, 0.9, 0.9]}
     - text: "The amount you are proposing to invest, ignoring any value in your own house, represents:"
       num: 11
       groupNum: 5
