@@ -101,7 +101,7 @@
       num: 10
       groupNum: 3
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0, 0, 0]}
+        - {num: 1, text: "Strongly agree",    weights: [1, 0, 0, 0, 0, 0, 0]}
         - {num: 2, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0, 0, 0]}
     - text: "The amount you are proposing to invest, ignoring any value in your own house, represents:"
       num: 11
