@@ -30,7 +30,7 @@
     - text: Which of the following statements is closest to the ammount of financial risk that you are willing to take when you save or make investments?
       num: 2
       groupNum: 3
-      pairNum: 10
+      pairNum: 5
       answers:
         - {num: 1, text: "Not willing to take any risk",                                             weights: [100, 0, 0, 0, 0, 0, 0]}
         - {num: 2, text: "Take below average financial risk expecting to earn below average return", weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
