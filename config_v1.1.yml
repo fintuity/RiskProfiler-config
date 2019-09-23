@@ -77,10 +77,10 @@
       num: 7
       groupNum: 2
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [0, 1, 0.5, 0, 0, 0]}
-        - {num: 2, text: "Agree",             weights: [0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 3, text: "Disagree",          weights: [0, 0, 0, 0.5, 1, 0.5]}
-        - {num: 4, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0.5, 1]}
+        - {num: 1, text: "Strongly disagree",    weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "Disagree",             weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Agree",          weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "Strongly agree", weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "I would be anxious if I saw my investments had gone down in value."
       num: 8
       groupNum: 4
