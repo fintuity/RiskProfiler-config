@@ -22,139 +22,139 @@
       groupNum: 1
       pairNum: 6
       answers:
-        - {num: 1, text: "Very good",     weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
-        - {num: 2, text: "Good",          weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 3, text: "Moderate",      weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 4, text: "Not Very Good", weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 5, text: "Very limited",  weights: [0, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 1, text: "Very good",     weights: [0, 0, 0, 0, 0.5, 1]}
+        - {num: 2, text: "Good",          weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 3, text: "Moderate",      weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Not Very Good", weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 5, text: "Very limited",  weights: [0, 1, 0.5, 0, 0, 0]}
     - text: Which of the following statements is closest to the ammount of financial risk that you are willing to take when you save or make investments?
       num: 2
       groupNum: 3
       pairNum: 10
       answers:
-        - {num: 1, text: "Not willing to take any risk",                                             weights: [1, 0, 0, 0, 0, 0, 0]}
-        - {num: 2, text: "Take below average financial risk expecting to earn below average return", weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Take average financial risk expecting average returns",                    weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 4, text: "Take above average risk expecting to earn above average returns",          weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 5, text: "Take significant risk expecting to earn significant returns",              weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Not willing to take any risk",                                             weights: [1, 0, 0, 0, 0, 0]}
+        - {num: 2, text: "Take below average financial risk expecting to earn below average return", weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Take average financial risk expecting average returns",                    weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Take above average risk expecting to earn above average returns",          weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 5, text: "Take significant risk expecting to earn significant returns",              weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "For me, part of investing is experiencing the ups and downs."
       num: 3
       groupNum: 2
       pairNum: 9
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
-        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 3, text: "Disagree",          weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 4, text: "Strongly Disagree", weights: [0.5, 1, 0, 0, 0, 0, 0]}
+        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1]}
+        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [0.5, 1, 0, 0, 0, 0]}
     - text: "In past, how often did you regret your financial decisions?"
       num: 4
       groupNum: 4
       pairNum: 8
       answers:
-        - {num: 1, text: "Always",  weights: [0.5, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "Often",   weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Seldom",  weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 4, text: "Never",   weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Always",  weights: [0.5, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "Often",   weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Seldom",  weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Never",   weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "To get a good return on my money, I am prepared to risk a portion of my wealth"
       num: 5
       groupNum: 2
       pairNum: 7
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
-        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 3, text: "Disagree",          weights: [0.5, 1, 0, 0, 0, 0, 0]}
-        - {num: 4, text: "Strongly Disagree", weights: [1, 0.5, 0, 0, 0, 0, 0]}
+        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1]}
+        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 3, text: "Disagree",          weights: [0.5, 1, 0, 0, 0, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [1, 0.5, 0, 0, 0, 0]}
     - text: "Your understanding of investment risk is?"
       num: 6
       groupNum: 1
       answers:
-        - {num: 1, text: "Very limited",  weights:[0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "Not Very Good", weights:[0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Moderate",      weights:[0, 0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 4, text: "Quite Good",    weights:[0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 5, text: "Very Good",     weights:[0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Very limited",  weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "Not Very Good", weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Moderate",      weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 4, text: "Quite Good",    weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 5, text: "Very Good",     weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "I am willing to take substantial financial risk expecting to earn substantial returns."
       num: 7
       groupNum: 2
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "Agree",             weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Disagree",          weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Strongly agree",    weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "Agree",             weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "I would be anxious if I saw my investments had gone down in value."
       num: 8
       groupNum: 4
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
-        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 3, text: "Disagree",          weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 4, text: "Strongly Disagree", weights: [0.5, 1, 0.5, 0, 0, 0, 0]}
+        - {num: 1, text: "Strongly agree",    weights: [0, 0, 0, 0, 0.5, 1]}
+        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 4, text: "Strongly Disagree", weights: [0.5, 1, 0.5, 0, 0, 0]}
     - text: "Which of the following words do you most associate with investing money?"
       num: 9
       groupNum: 2
       answers:
-        - {num: 1, text: "Loss",        weights: [0.5, 1, 0, 0, 0, 0, 0]}
-        - {num: 2, text: "Uncertainty", weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Opportunity", weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "Excitement",  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Loss",        weights: [0.5, 1, 0, 0, 0, 0]}
+        - {num: 2, text: "Uncertainty", weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Opportunity", weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "Excitement",  weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "I prefer the certain return of a deposit account to risky Investment."
       num: 10
       groupNum: 3
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [1, 0, 0, 0, 0, 0, 0]}
-        - {num: 2, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0, 0, 0]}
+        - {num: 1, text: "Strongly agree",    weights: [1, 0, 0, 0, 0, 0]}
+        - {num: 2, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0, 0]}
     - text: "The amount you are proposing to invest, ignoring any value in your own house, represents:"
       num: 11
       groupNum: 5
       pairNum: 16
       answers:
-        - {num: 1, text: "All of my savings (other than emergency funds)",  weights: [0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "About half of my savings",                        weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "About 25% of my savings",                         weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "A relatively small proportion of my savings",     weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "All of my savings (other than emergency funds)",  weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "About half of my savings",                        weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "About 25% of my savings",                         weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "A relatively small proportion of my savings",     weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "Will you need to withdraw significant amount of money you are investing in this Plan within the next two years?"
       num: 12
       groupNum: 5
       pairNum: 14
       answers:
-        - {num: 1, text: "Definitely",      weights: [0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "Probably",        weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Don't think so",  weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "Definitely not",  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Definitely",      weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "Probably",        weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Don't think so",  weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "Definitely not",  weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "What level of loss on these investments could you sustain before it became a real danger to your current standard of living?"
       num: 13
       groupNum: 5
       pairNum: 16
       answers:
-        - {num: 1, text: "More than 10%",                                       weights: [0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "More than 20%",                                       weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "More than 30%",                                       weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "It should not affect my current standard of living",  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "More than 10%",                                       weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "More than 20%",                                       weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "More than 30%",                                       weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "It should not affect my current standard of living",  weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "How important to your household budgets would any income from this investment be?"
       num: 14
       groupNum: 5
       answers:
-        - {num: 1, text: "An indispensable part of my disposable income",         weights: [0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "Makes a useful contribution to my disposable income",   weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Nice to have but not important",                        weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "Not important at all",                                  weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "An indispensable part of my disposable income",         weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "Makes a useful contribution to my disposable income",   weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Nice to have but not important",                        weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "Not important at all",                                  weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "My current and future income sources are"
       num: 15
       groupNum: 5
       answers:
-        - {num: 1, text: "Very unstable", weights: [0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "Unstable",      weights: [0, 0.5, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "Stable",        weights: [0, 0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "Very stable",   weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Very unstable", weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "Unstable",      weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 3, text: "Stable",        weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 4, text: "Very stable",   weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "Your portfolio loses 25% of its value"
       num: 16
       groupNum: 5
       pairNum: 11
       answers:
-        - {num: 1, text: "It will have a material impact on your financial security",   weights: [0, 1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "You will have to adjust your short term spending plans",      weights: [0, 0, 1, 0.5, 0, 0, 0]}
-        - {num: 3, text: "You have time for the portfolio to recovery in value",        weights: [0, 0, 0, 0.5, 1, 0, 0]}
-        - {num: 4, text: "You are not going to face any financial difficulties",        weights: [0, 0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "It will have a material impact on your financial security",   weights: [0, 1, 0.5, 0, 0, 0]}
+        - {num: 2, text: "You will have to adjust your short term spending plans",      weights: [0, 0, 1, 0.5, 0, 0]}
+        - {num: 3, text: "You have time for the portfolio to recovery in value",        weights: [0, 0, 0, 0.5, 1, 0]}
+        - {num: 4, text: "You are not going to face any financial difficulties",        weights: [0, 0, 0, 0, 0.5, 1]}
   riskLevels:
     - level: 1
       name: "No Risk"
