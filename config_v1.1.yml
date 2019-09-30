@@ -85,10 +85,10 @@
       num: 8
       groupNum: 4
       answers:
-        - {num: 1, text: "Strongly agree",    weights: [1, 0.5, 0, 0, 0, 0]}
-        - {num: 2, text: "Agree",             weights: [0, 0.5, 1, 0.5, 0, 0]}
-        - {num: 3, text: "Disagree",          weights: [0, 0, 0.5, 1, 0.5, 0]}
-        - {num: 4, text: "Strongly Disagree", weights: [0, 0, 0, 0.5, 1, 0.5]}
+        - {num: 1, text: "Strongly agree",    weights: [0, 0.5, 1, 0.5, 0, 0]}
+        - {num: 2, text: "Agree",             weights: [0, 0, 0.5, 1, 0.5, 0]}
+        - {num: 3, text: "Disagree",          weights: [0, 0, 0.5, 0.5, 1, 0.5]}
+        - {num: 4, text: "Strongly Disagree", weights: [0, 0, 0, 0, 0.5, 1]}
     - text: "Which of the following words do you most associate with investing money?"
       num: 9
       groupNum: 2
